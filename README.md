@@ -139,5 +139,6 @@ Now we create a directory in our projects root directory where our docker-compos
 </html>
 ```
 Now lets test if our project is working, after running the docker compose, if you go to https://simple.example.com:8443, you would see the html.
-![image](https://user-images.githubusercontent.com/79264715/233499425-e0441c83-cb08-4555-97bd-fc35baa99f20.png)
+![image](https://user-images.githubusercontent.com/79264715/233499425-e0441c83-cb08-4555-97bd-fc35baa99f20.png) 
+<br>
 remember to always add https:// before your domain and notice that the port is 8443, it is because that in our configuration, traefik listens on port 8443 for https requests.
