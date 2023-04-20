@@ -64,10 +64,12 @@ networks:
 <br>
 In the code above, change "your_service.example.com" with your domain which you want the service on<br>
 Now run these commands, 
+
 ```shell
 docker network create traefik-proxy
 docker-compose up -d
 ```
+
 <br>
 ## Example
 As an example, we want to host a simple static website on our domain.<br>
